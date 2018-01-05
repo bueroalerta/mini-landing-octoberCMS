@@ -1,0 +1,7 @@
+1.0.1: First version of landing
+1.0.5:
+   - Run landing table migrations
+   - create_landings_table.php
+1.0.6:
+   - Run subscribers table migrations
+   - create_subscribers_table.php

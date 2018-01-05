@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Subscriber
+
+# Model Form Field configuration
+form: $/eyarij/landing/models/subscriber/fields.yaml
+
+# Model Class name
+modelClass: Eyarij\Landing\Models\Subscriber
+
+# Default redirect location
+defaultRedirect: eyarij/landing/subscribers
+
+# Create page
+create:
+    title: Create Subscriber
+    redirect: eyarij/landing/subscribers/update/:id
+    redirectClose: eyarij/landing/subscribers
+
+# Update page
+update:
+    title: Edit Subscriber
+    redirect: eyarij/landing/subscribers
+    redirectClose: eyarij/landing/subscribers
+
+# Preview page
+preview:
+    title: Preview Subscriber

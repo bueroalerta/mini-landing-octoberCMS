@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Landing
+
+# Model Form Field configuration
+form: $/eyarij/landing/models/landing/fields.yaml
+
+# Model Class name
+modelClass: Eyarij\Landing\Models\Landing
+
+# Default redirect location
+defaultRedirect: eyarij/landing/landings
+
+# Create page
+create:
+    title: Create Landing
+    redirect: eyarij/landing/landings/update/:id
+    redirectClose: eyarij/landing/landings
+
+# Update page
+update:
+    title: Edit Landing
+    redirect: eyarij/landing/landings
+    redirectClose: eyarij/landing/landings
+
+# Preview page
+preview:
+    title: Preview Landing
