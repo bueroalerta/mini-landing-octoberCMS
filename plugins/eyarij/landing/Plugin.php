@@ -53,7 +53,7 @@ class Plugin extends PluginBase
 
         return [
             'Eyarij\Landing\Components\Contact' => 'contact',
-            'Eyarij\Landing\Components\Subscriber' => 'subscriber',
+            'Eyarij\Landing\Components\Subs' => 'subscriber',
         ];
     }
 
